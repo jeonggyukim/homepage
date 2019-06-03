@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Jeong-Gyu Kim</title>
+    <link>https://jeonggyukim.github.io/page/</link>
+    <description>Recent content in Pages on Jeong-Gyu Kim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</managingEditor>
+    <webMaster>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</webMaster>
+    <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jeonggyukim.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CV</title>
+      <link>https://jeonggyukim.github.io/page/cv/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      <author>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</author>
+      <guid>https://jeonggyukim.github.io/page/cv/</guid>
+      <description>Download my cv here
+ PDFObject.embed(&#34;files/jgkim_cv.pdf&#34;, &#34;#jgkimcv&#34;);    </description>
+    </item>
+    
+    <item>
+      <title>Simulation Movies</title>
+      <link>https://jeonggyukim.github.io/page/movies/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      <author>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</author>
+      <guid>https://jeonggyukim.github.io/page/movies/</guid>
+      <description>Some are research-grade products and some are made just for fun. All simulations are run with the Athena code unless otherwise noted.
+Star Cluster Formation
+  Thermal Instability
+  </description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://jeonggyukim.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</author>
+      <guid>https://jeonggyukim.github.io/page/about/</guid>
+      <description>I am a first-year postdoc in the Department of Astrophysical Sciences at Princeton University. I received my PhD from Seoul National University in 2018. My research focus is on theoretical and computational astrophysics in the areas of star formation and interstellar medium (ISM). The primary goal of my research is to understand how star clusters form, how UV radiation emitted by massive stars affect the evolution of molecular clouds.
+Previously I studied gravitational instability of a gaseous disk confined by an external pressure, interfacial instability of evaporation fronts in the two-phase ISM, wiggle instability of galactic spiral shocks, and instability of magnetized ionization fronts surrounding HII regions.</description>
+    </item>
+    
+  </channel>
+</rss>

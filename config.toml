@@ -1,3 +1,76 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://jeonggyukim.github.io"
+DefaultContentLanguage = "en"
+title = "Jeong-Gyu Kim"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+#pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+# disqusShortname = "XXX"
+googleAnalytics = "UA-108803391-1"
+
+[Params]
+  homeTitle = "Jeong-Gyu Kim" # Set a different text for the header on the home page
+  subtitle = "Spitzer Fellow at Princeton University"
+#  logo = "img/avatar-icon.png" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = true
+  #rss = true
+  # comments = true
+  # readingTime = true
+  # wordCount = true
+  useHLJS = true
+  # socialShare = true
+  # delayDisqus = true
+  showRelatedPosts = true
+  #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  custom_css = ["css/main.css"]
+
+# [[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+
+# [[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+
+[[Params.bigimg]]
+ src = "img/HST-Carina.jpg"
+ desc = "The Carina Nebula: Star Birth in the Extreme (Image Credit: NASA, ESA, and The Hubble Heritage Team)"
+
+[Author]
+  name = "Jeong-Gyu Kim"
+  website = "https://jeonggyukim.github.io"
+  email = "kimjg@astro.princeton.edu"
+  github = "jeonggyukim"
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "CV"
+    url = "page/cv/"
+    weight = 2
+
+[[menu.main]]
+    name = "Notes"
+    url = "post/"
+    weight = 3
+
+[[menu.main]]
+    name = "Movies"
+    url = "page/movies/"
+    weight = 4
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 5

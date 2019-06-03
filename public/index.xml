@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeong-Gyu Kim</title>
+    <link>https://jeonggyukim.github.io/</link>
+    <description>Recent content on Jeong-Gyu Kim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</managingEditor>
+    <webMaster>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</webMaster>
+    <lastBuildDate>Sun, 02 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jeonggyukim.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CV</title>
+      <link>https://jeonggyukim.github.io/page/cv/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      <author>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</author>
+      <guid>https://jeonggyukim.github.io/page/cv/</guid>
+      <description>Download my cv here
+ PDFObject.embed(&#34;files/jgkim_cv.pdf&#34;, &#34;#jgkimcv&#34;);    </description>
+    </item>
+    
+    <item>
+      <title>Test of fast logarithm function</title>
+      <link>https://jeonggyukim.github.io/post/2019-06-02-test-of-fast-logarithm-function/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      <author>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</author>
+      <guid>https://jeonggyukim.github.io/post/2019-06-02-test-of-fast-logarithm-function/</guid>
+      <description>Python implementation of logapprox fucntion
+from ctypes import ( Union, Array, c_float, c_int32, cdll, CDLL ) class u_type(Union): _fields_ = (&amp;#34;f&amp;#34;, c_float), (&amp;#34;i&amp;#34;, c_int32) # load printf function from Dynamic Linked Libary libc.so.6 if os.uname().sysname == &amp;#39;Darwin&amp;#39;: libc = CDLL(cdll.LoadLibrary(&amp;#39;libc.dylib&amp;#39;)._name) else: libc = CDLL(cdll.LoadLibrary(&amp;#39;libc.so.6&amp;#39;)._name) printf = libc.printf if __name__ == &amp;#34;__main__&amp;#34;: # initialize union _32bitsdata = u_type() # set values to chunk _32bitsdata.f = 10.0 # and print it #printf(b&amp;#34;Data in 32 bits: %.</description>
+    </item>
+    
+    <item>
+      <title>Simulation Movies</title>
+      <link>https://jeonggyukim.github.io/page/movies/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      <author>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</author>
+      <guid>https://jeonggyukim.github.io/page/movies/</guid>
+      <description>Some are research-grade products and some are made just for fun. All simulations are run with the Athena code unless otherwise noted.
+Star Cluster Formation
+  Thermal Instability
+  </description>
+    </item>
+    
+    <item>
+      <title>Cloud Dispersal by Radiation Feedback</title>
+      <link>https://jeonggyukim.github.io/post/2017-11-02-cloud-dispersal-by-radiation-feedback/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      <author>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</author>
+      <guid>https://jeonggyukim.github.io/post/2017-11-02-cloud-dispersal-by-radiation-feedback/</guid>
+      <description>Almost all stars in the present-day Universe are believed to form in clusters embedded in giant molecular clouds (GMCs). It has long been known to observers that star formation in GMCs is a slow and inefficient process, in the sense that star formation rate is much more smaller than what would be expected from the free-fall (pure gravitational) collapse andthat clouds turn only a small fraction of gas mass into stars during their lifetime.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://jeonggyukim.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>kimjg@astro.princeton.edu (Jeong-Gyu Kim)</author>
+      <guid>https://jeonggyukim.github.io/page/about/</guid>
+      <description>I am a first-year postdoc in the Department of Astrophysical Sciences at Princeton University. I received my PhD from Seoul National University in 2018. My research focus is on theoretical and computational astrophysics in the areas of star formation and interstellar medium (ISM). The primary goal of my research is to understand how star clusters form, how UV radiation emitted by massive stars affect the evolution of molecular clouds.
+Previously I studied gravitational instability of a gaseous disk confined by an external pressure, interfacial instability of evaporation fronts in the two-phase ISM, wiggle instability of galactic spiral shocks, and instability of magnetized ionization fronts surrounding HII regions.</description>
+    </item>
+    
+  </channel>
+</rss>
