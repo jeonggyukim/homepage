@@ -7,16 +7,13 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
-# Need to add .git file again
-echo "gitdir: ../.git/modules/public/" > .git
-
 # Add changes to git.
 git add .
 
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
-then msg="$1"
+  then msg="$1"
 fi
 git commit -m "$msg"
 
